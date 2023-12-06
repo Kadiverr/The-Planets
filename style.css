@@ -1,0 +1,99 @@
+* { background-color: skyblue;}
+#mercury{ color: transparent; margin: -380px auto; width: 200px; height: 200px; border-radius: 100%; border: 5px solid black; animation: me 18s linear infinite normal; }
+#venus{ color: transparent;  margin: 150px auto; width: 250px;height: 250px; border-radius: 100%; border: 5px solid black;  animation:ve 16s linear infinite normal;}
+#Mars { color: transparent;  margin: -435px auto; width: 300px; height: 300px; border-radius: 100%; border: 5px solid black;
+animation: ma 14s linear infinite normal;  }
+#Earth{color: transparent;  margin: 100px auto; width: 350px; height: 350px; border-radius: 100%; border: 5px solid black;
+animation: ea 12s linear infinite normal;}
+#jupiter{ color: transparent;  margin: -486px auto; width: 400px; height: 400px; border-radius: 100%; border: 5px solid black; animation:ju 10s  linear infinite normal; }
+#saturn{ color: transparent;  margin: 55px auto; width: 450px; height: 450px; border-radius: 100%; border: 5px solid black;  animation: sa 8s linear infinite normal;}
+#uranus{color: transparent;  margin: -535px auto; width: 500px; height: 500px;  border-radius: 100%; border: 5px solid black; animation: ur 6s linear infinite normal;}
+#pluto{ color: transparent;  margin: 5px auto; width: 550px; height: 550px; border-radius: 100%; border: 5px solid black;animation: pl 4s linear infinite normal;}
+#me{
+    margin: 10px 20px;
+}
+@keyframes me{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+#ve{
+margin: 10px 40px;
+}
+@keyframes ve{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+
+#ma{
+    margin: 10px 60px;
+}
+@keyframes ma{
+    0%{
+        transform : rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+#ea{
+    margin:10px 85px;
+}
+@keyframes ea{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+#ju{margin: 10px 93px;
+
+}
+@keyframes ju{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}
+#pl{
+    margin: 10px 140px;
+}
+#ur{
+    margin: 10px 130px;
+}
+@keyframes pl {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes ur {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#sa{  margin: 10px 110px;
+}
+@keyframes sa {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
